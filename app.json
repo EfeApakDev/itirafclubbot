@@ -1,0 +1,75 @@
+{
+      "name": "EtirafClubBot",
+      "description": "Azərbaycanca sıfırdan yığılmış etiraf botu",
+      "keywords": [
+         "telegram",
+         "etiraf",
+         "group",
+         "aykhan_s",
+         "RoBotlarimTg"
+      ],   
+   "repository": "https://github.com/aykhan026/EtirafBot-RoBotlarimTg",
+   "env": {
+      "TOKEN": {
+         "description": "Botunuzun tokenini bura yazın",
+         "value": ""
+      },
+      "APP_ID": {
+         "description": "my.telegram.org adresindən APP ID alın.",
+         "value": ""
+      },
+      "API_HASH": {
+         "description": "my.telegram.org adresindən API HASH alın",
+         "value": ""
+      },    
+      "ADMIN_QRUP": {
+         "description": "Etirafları təsdiqləməy üçün bir qrup yaradın. yaratdığınız botu həmin qrupa atıb admin edib qrup idini bura yazın",
+         "value": "-717273671"
+      },      
+      "ETIRAF_QRUP": {
+         "description": "Təsdiqlədiyiniz etiraf paylaşılacaq kanal/qrup idini yazın",
+         "value": "-1727079853"
+      },
+      "LOG_QRUP": {
+         "description": "Bu qrupa botunuz giriş çıxış bilgiləri və xüsusi gizli məlumatlar göndərəcəy bu qrupda yalnız özünüz olun",
+         "value": "-6271773727"
+      },
+      "kanal": {
+         "description": "Etiraflar paylaşılacaq kanal/qrup linkini bura yazın @ işarəsi olmadan",
+         "value": "EtirafClub"
+      },
+      "BOT_AD": {
+         "description": "Botun usernamesini bura yazın @ işarəsi ilə",
+         "value": "@EtirafClubBot"
+      },
+      "sahib": {
+         "description": "Bura öz usernamenizi yazın @ işarəsi olmadan",
+         "value": "aykhan_s"
+      },      
+      "support": {
+         "description": "Bura support qrupunuz/kanalınız varsa @ işarəsi olmadan yazın yoxdusa olduğu kimi buraxın",
+         "value": "BozkurtRoBot"
+      },
+      "startmesaj": {
+         "description": "Bota start verilən zaman yazılan mesaj",
+         "value": "**Selam, Hoş Geldin** __kimseye söylemediğin itirafları bana söyleyebilirsin__ 🤭"
+      },
+      "qrupstart": {
+         "description": "Bot əgər hansısa qrupa qatılıbsa start verilərsə qrupda yazdığı mesaj",
+         "value": "✅ **Ben aktifim !** 💌 **İtiraf Yazmak İçin Şahsiden Yazın**"
+      },
+      "etirafmsg": {
+         "description": "Etiraf edilən zaman botun verdiyi sual",
+         "value": "**İtirafını nasıl paylaşayım ?** 🤔"
+      }, 
+      "etirafyaz": {
+         "description": "Etiraf etməy istəyən istifadəçiyə yazılan mesaj",
+         "value": "**Buyur bir itiraf yaz Daha sonra ben onun açık ve ya anonim olacağını soracağım** 😍"
+      },
+      "gonderildi": {
+         "description": "Etiraf edəndən sonra yazılan mesaj (öz kanalınızı yazın)",
+         "value": "✅ **İtirafınız gönderildi Adminlər tarafından incelendikten sonra @bozkurtitiraf kanalında paylaşılacak**"
+      }
+      
+   }
+}
